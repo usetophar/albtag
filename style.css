@@ -16,12 +16,21 @@
   padding-left: 3%;
 }
 
+.card{
+  position: absolute;
+  /* top: 20px; */
+  left: 30px;
+}
+
+.card-body{
+  background-color: cornsilk;
+}
+
 .footer{
   font-size: 10px;
-  color: brown;
+  color: blue;
   font-weight: bolder;
-  /* background-color: grey; */
-  position: absolute;
-  bottom: 1%;
-  right: 5%;
+  position: fixed;
+  right: 1px;
+  bottom: -1px;
 }
